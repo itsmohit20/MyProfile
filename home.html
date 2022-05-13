@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Profile | Mohit Patil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link href="./Styles/home.css" rel="stylesheet" media="screen" />
+    <link href="./Styles/header.css" rel="stylesheet" media="screen" />
+    <link href="./Styles/banner.css" rel="stylesheet" media="screen" />
+    <link href="./Styles/animate.css" rel="stylesheet" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://kit.fontawesome.com/5fe60e0ceb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <a class="header-logo align-items-center">LOGO</a>
+            <div class="header-links">
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#service">Service</a>
+                    </li>
+                    <li>
+                        <a href="#achivements">Achivements</a>
+                    </li>
+                    <!-- <li>
+                        <a>Pricing</a>
+                    </li>
+                    <li>
+                        <a>Blog</a>
+                    </li> -->
+                    <li>
+                        <a href="#contactme">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="home-banner" style="background-image:url(./Media/banner2.jpg);">
+            <div class="container">
+                <div class="banner-row">
+                    <div class="col-lg-10">
+                        <span class="subheading">
+                            "Hi there"
+                        </span>
+                        <h1 class="mb-4">
+                            I am Mohit Patil
+                            <br>
+                            <span class="typewrite" data-period="2000"
+                                data-type='["I am a Web Developer.", "Certified Sitecore Developer.", "I Love Design.", "I Love to Develop Web Application." ]'>
+                                <span class="wrap"></span>
+                            </span>
+                        </h1>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section-about ftco-section" id="about">
+            <div class="container-about">
+                <div class="row g-xl-5">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="img-about" style="background-image: url(./Media/mypic.png);">
+                            <div class="img-effect-bottom"></div>
+                            <div class="img-effect-top"></div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 heading-section aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+                        data-aos-duration="1000">
+                        <div class="my-5">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active activeme" id="aboutme-tab"
+                                        onclick="changeTab(event, 'aboutme')">About Me</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="skills-tab" onclick="changeTab(event, 'skills')">Skills</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link  activeme" id="experience-tab"
+                                        onclick="changeTab(event, 'experience')">Experience</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content py-4" id="myTabContent">
+                                <div class="tab-pane fade active show" id="aboutme">
+                                    <h2 class="mb-4 h2">My Story</h2>
+                                    <p>Certified Sitecore Developer with a demonstrated history of working in the information technology and services industry.</p>
+                                    <h3 class="mb-4">I Do Web Design &amp; Developement since I was 18 Years Old</h3>
+                                    <p>killed in .NET, HTML, CSS, JavaScript and Sitecore CMS tool. Offering experience in full software
+                                        development life cycl</p>
+                                </div>
+                                <div class="tab-pane fade" id="skills">
+                                    <h2 class="mb-4 h2">Skills</h2>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                                        right at the coast of the Semantics, a large language ocean.</p>
+                                    <div class="row mt-5">
+                                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up"
+                                            data-aos-duration="1000" data-aos-delay="100">
+                                            <div class="progress-wrap">
+                                                <h3>Sitecore</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                                        aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                        <span>90%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up"
+                                            data-aos-duration="1000" data-aos-delay="100">
+                                            <div class="progress-wrap">
+                                                <h3>HTML / CSS</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                                                        aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                                        <span>95%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up"
+                                            data-aos-duration="1000" data-aos-delay="100">
+                                            <div class="progress-wrap">
+                                                <h3>C#</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="88"
+                                                        aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                                                        <span>88%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up"
+                                            data-aos-duration="1000" data-aos-delay="100">
+                                            <div class="progress-wrap">
+                                                <h3>javascript</h3>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                                        aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                                        <span>80%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="experience">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate"
+                                                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                                                <div class="w-100">
+                                                    <h2>Sitecore Developer</h2>
+                                                    <span class="date">2018-2021</span> <span class="position"><i
+                                                            class="ion-ios-pin me-2"></i>Infosys Ltd.</span>
+                                                    <p>A small river named Duden flows by their place and supplies it
+                                                        with the necessary regelialia.</p>
+                                                </div>
+                                            </div>
+                                            <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate"
+                                                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                                <div class="w-100">
+                                                    <h2>Web Developer</h2>
+                                                    <span class="date">2021-PRESENT</span> <span class="position"><i
+                                                            class="ion-ios-pin me-2"></i>Cactimedia.</span>
+                                                    <p>A small river named Duden flows by their place and supplies it
+                                                        with the necessary regelialia.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service ftco-section" id="service">
+            <div class="container-xl">
+                <div class="row justify-content-center">
+                    <div class="col-md-7 heading-section text-center mb-5 aos-init aos-animate">
+                        <h2 class="mb-4">Services</h2>
+                        <span class="subheading">These are the services I provide to my clients</span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="1000">
+                        <div class="services-2">
+                            <div class="icon"><i class="fa-solid fa-code"></i></div>
+                            <div class="text">
+                                <h2>Sitecore Content Design</h2>
+                                <p>Designing the complete site in sitecore following Helix architectural principle.
+                                    Creating Layout, Templates, Renderings in Sitecore.
+                                </p>
+                                <p><a href="#" class="">Read more <span class="fa fa-long-arrow-right"></span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="1000">
+                        <div class="services-2">
+                            <div class="icon"><i class="fa-solid fa-laptop-code"></i></span></div>
+                            <div class="text">
+                                <h2>Web Development</h2>
+                                <p>Creating responsive Html designs. Addin styles for good looks. Making more dynamic webpages by implementing Javascript.</p>
+                                <p><a href="#" class="">Read more <span class="fa fa-long-arrow-right"></span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="1000">
+                        <div class="services-2">
+                            <div class="icon"><i class="fa-solid fa-network-wired"></i></div>
+                            <div class="text">
+                                <h2>Web Application Developement</h2>
+                                <p>Creating Web application by following Helix. Creating Model, View, Controller structure. integrating it with Sitecore.</p>
+                                <p><a href="#" class="">Read more <span class="fa fa-long-arrow-right"></span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-md-8">
+                        <p><strong>Have any works you want to done by me? <a href="#">Contact Me</a></strong></p>
+                        <p>Quality work is my MOTO. Contact me for enquiries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-section-counter img"
+            style="background-image:url(Media/xbg_3.jpg.pagespeed.ic._5ftKPXrag.webp)">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row section-counter viewed" style="width: 100%;">
+                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+                        <div class="counter-wrap-2 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="1000">
+                            <div class="icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="text">
+                                <h2 class="number"><span class="countup">3,000</span></h2>
+                                <span class="caption">Happy Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+                        <div class="counter-wrap-2 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+                            data-aos-duration="1000">
+                            <div class="icon">
+                                <i class="fa-solid fa-list-check"></i>
+                            </div>
+                            <div class="text">
+                                <h2 class="number"><span class="countup">320</span></h2>
+                                <span class="caption">Project Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+                        <div class="counter-wrap-2 d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300"
+                            data-aos-duration="1000">
+                            <div class="icon">
+                                <i class="fa-solid fa-mug-saucer"></i>
+                            </div>
+                            <div class="text">
+                                <h2 class="number"><span class="countup">1,000</span></h2>
+                                <span class="caption">Cups of Tea</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-section ftco-project" id="achivements">
+            <div class="container-xl">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-md-7 heading-section text-center aos-init aos-animate" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <h2 class="mb-4">Achivements</h2>
+                        <span class="subheading">My Achivements</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 aos-init aos-animate" data-aos="flip-left" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image:url(Media/sitecore9.jpg)">
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a
+                                        href="https://learning.sitecore.com/award/certification/847d375a-b61e-3e60-a7e4-6e6aca596507/view-ext">Sitecore®
+                                        Experience Solution 9 Developer Certification</a></h3>
+                                <span>Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 aos-init aos-animate" data-aos="flip-left" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image:url(Media/az900.jpg)">
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a
+                                        href="https://www.credly.com/badges/9a522fb1-d8ee-4afa-822e-14298d558467?source=linked_in_profile">Microsoft
+                                        Certified: Azure Fundamentals</a></h3>
+                                <span>Azure cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 aos-init aos-animate" data-aos="flip-left" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image:url(Media/hecsharp.jpg)">
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="https://www.hackerrank.com/certificates/5c1b6a1905ee">C#(Basic)</a></h3>
+                                <span>Web Application Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 aos-init aos-animate" data-aos="flip-left" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image:url(Media/hrsql.jpg)">
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="https://www.hackerrank.com/certificates/a37df9a9b669">Microsoft SQL
+                                        Server</a></h3>
+                                <span>Web Application Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 aos-init aos-animate" data-aos="flip-left" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image:url(Media/hrpython.jpg)">
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="https://www.hackerrank.com/certificates/6490bc81dee6">Python(Basic)</a>
+                                </h3>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 aos-init aos-animate" data-aos="flip-left" data-aos-delay="100"
+                        data-aos-duration="1000">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image:url(Media/boxever.jpg)">
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a
+                                        href="https://learning.sitecore.com/award/certification/4f85432d-3927-3050-a413-df7e0d8115ff/view-ext">Boxever
+                                        Advanced Certification</a></h3>
+                                <span>Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-section ftco-no-pb" id="contactme">
+            <div class="container-fluid-xl">
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-md-12">
+                        <div class="wrapper">
+                            <div class="row g-0">
+                                <div class="col-lg-6 order-lg-last">
+                                    <div class="contact-wrap w-100 p-md-5 p-4">
+                                        <h3>Contact us</h3>
+                                        <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                                        <div class="row mb-4">
+                                            <div class="col-md-4">
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <div class="text">
+                                                        <p><span>My Address:</span> 1106, Sultan Belshalat
+                                                            Building, 35WF+5V6 - Barsha Heights - Dubai, UAE</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <div class="text">
+                                                        <p><span>My Email:</span> <a
+                                                                href="mailto:itsmohit20@gmail.com">itsmohit20@gmail.com</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <div class="text">
+                                                        <p><span>My Phone:</span> <a href="tel://971585497286">+ 971 585
+                                                                497 286</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form id="contactForm" name="contactForm" class="contactForm">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="name" id="name"
+                                                            placeholder="Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email" id="email"
+                                                            placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject"
+                                                            id="subject" placeholder="Subject">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <textarea name="message" class="form-control" id="message"
+                                                            cols="30" rows="4"
+                                                            placeholder="Create a message here"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <input type="submit" value="Send Message"
+                                                            class="btn btn-primary">
+                                                        <div class="submitting"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="w-100 social-media mt-5">
+                                            <h3>Follow me here</h3>
+                                            <p>
+                                                <a href="#">Facebook</a>
+                                                <a href="#">Twitter</a>
+                                                <a href="https://www.linkedin.com/in/mohit-patil20"
+                                                    target="_blank">Linkedin</span></a>
+                                                <a href="https://instagram.com/itsmohit20?igshid=YmMyMTA2M2Y="
+                                                    target="_blank">Instagram</a>
+                                                <a href="https://github.com/itsmohit20"
+                                                    target="_blank">Github</span></a>
+                                                <!-- <a href="#">Dribbble</a> -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-flex align-items-stretch">
+                                    <!-- <iframe
+                                        src="https://www.google.com/maps/place/Sultan+Belshalat+Building/@25.0954178,55.1724645,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b7197c06113:0x7440702132cc6d42!8m2!3d25.0953333!4d55.1745541"
+                                        width="100%" height="500" style="border:0;" allowfullscreen=""
+                                        loading="lazy"></iframe> -->
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5964.6269521564245!2d55.17242960462255!3d25.094265356130865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7197c06113%3A0x7440702132cc6d42!2sSultan%20Belshalat%20Building!5e0!3m2!1sen!2sae!4v1652347818491!5m2!1sen!2sae"
+                                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-intro py-5 bg-primary">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="row g-lg-5">
+                            <div class="col-md-8 text-lg-right">
+                                <h2 class="mb-0">Have any works you want to done by me?</h2>
+                                <p>Contact me for enquiries</p>
+                            </div>
+                            <div class="col-md-4 border-left d-flex align-items-center">
+                                <p class="w-100"><a href="#"
+                                        class="btn btn-white btn-outline-white d-block py-3">Contact Me</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="ftco-footer">
+        <div class="container-xl">
+            <div class="row mb-5 justify-content-between">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo d-flex">
+                            <a class="navbar-brand align-items-center" href="index.html">
+                                M.Patil
+                            </a>
+                        </h2>
+                        <p>Certified Sitecore Developer with a demonstrated history of working in the information technology and services industry.
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled mt-2">
+                            <li><a href="https://www.linkedin.com/in/mohit-patil20" target="_blank"><span
+                                        class="fa fa-linkedin"></span></a></li>
+                            <li><a href="https://github.com/itsmohit20" target="_blank"><span
+                                        class="fa fa-github"></span></a></li>
+                            <li><a href="https://instagram.com/itsmohit20?igshid=YmMyMTA2M2Y=" target="_blank"><span
+                                        class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Services</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Web Design</a>
+                            </li>
+                            <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Web
+                                    Development</a></li>
+                            <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>Graphic Design</a>
+                            </li>
+                            <li><a href="#"><span class="ion ion-ios-arrow-round-forward me-2"></span>UI/UX Design</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map marker"></span><span class="text">1106, Sultan Belshalat
+                                        Building, 35WF+5V6 - Barsha Heights - Dubai, UAE</span></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+971 585 497
+                                            286</span></a></li>
+                                <li><a href="mailto:itsmohit20@gmail.com"><span
+                                            class="icon fa fa-paper-plane"></span><span
+                                            class="text">itsmohit20@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid px-0 py-5 bg-darken">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="mb-0" style="font-size: 14px;">Copyright ©
+                            <script type="text/javascript" async=""
+                                src="https://www.google-analytics.com/analytics.js"></script>
+                            <script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This
+                            template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
+    <script src="./Scripts/header.js"></script>
+    <script src="./Scripts/banner.js"></script>
+    <script src="./Scripts/home.js"></script>
+
+</body>
